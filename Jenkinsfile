@@ -7,10 +7,10 @@ pipeline {
     
     environment {
 	DOCKER_USERNAME = 'manojgovind'
-        IMAGE_NAME = "my-apache-website-image"
+        IMAGE_NAME = "my-latest-apache-website-image"
 	IMAGE_TAG = 'latest'
 	IMAGE = "${DOCKER_USERNAME}/${IMAGE_NAME}:${IMAGE_TAG}"
-        CONTAINER_NAME = "my-apache-website-container"
+        CONTAINER_NAME = "my-latet-apache-website-container"
     }
 
     stages {
